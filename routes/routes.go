@@ -1,9 +1,8 @@
 package routes
 
 import (
+	"crud-go/controllers"
 	"net/http"
-
-	"github.com/edujudici/controllers"
 )
 
 func CarregaRotas() {

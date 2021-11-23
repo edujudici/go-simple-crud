@@ -1,12 +1,11 @@
 package controllers
 
 import (
+	"crud-go/models"
 	"html/template"
 	"log"
 	"net/http"
 	"strconv"
-
-	"github.com/edujudici/models"
 )
 
 var temp = template.Must(template.ParseGlob("templates/*.html"))

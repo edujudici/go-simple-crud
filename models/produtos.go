@@ -1,6 +1,6 @@
 package models
 
-import "github.com/edujudici/db"
+import "crud-go/db"
 
 type Produto struct {
 	Id         int

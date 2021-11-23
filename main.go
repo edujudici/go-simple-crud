@@ -1,9 +1,8 @@
 package main
 
 import (
+	"crud-go/routes"
 	"net/http"
-
-	"github.com/edujudici/routes"
 )
 
 func main() {
